@@ -1,0 +1,83 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #1e3a5f;
+}
+.navbar {
+    background-color: #0d47a1;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.nav-link {
+    font-weight: 500;
+}
+.inicio {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #bbdefb, #e3f2fd);
+}
+.inicio h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0d47a1;
+    letter-spacing: 1px;
+}
+.inicio p {
+    font-size: 20px;
+}
+.sobre {
+    background-color: #ffffff;
+}
+.sobre h2, .interesses h2, .objetivos h2, .contato h2 {
+    color: #0d47a1;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sobre p, .objetivos p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+.interesses {
+    background-color: #e3f2fd;
+}
+.interesse-card {
+    height: 100%;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(13, 71, 161, 0.15);
+}
+.interesse-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0d47a1;
+    margin-bottom: 15px;
+}
+.interesse-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.objetivos {
+    background-color: #ffffff;
+}
+.contato {
+    background-color: #1565c0;
+    color: white;
+}
+.contato h2 {
+    color: white;
+}
+.contato p {
+    font-size: 18px;
+}
+.contato .btn {
+    font-weight: 600;
+    color: #0d47a1;
+    border: none;
+}
+.contato .btn:hover {
+    background-color: #bbdefb;
+}
